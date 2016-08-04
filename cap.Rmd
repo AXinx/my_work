@@ -1,0 +1,66 @@
+---
+title: "洋葱数学自适应系统可视化文档"
+author: "辛"
+date: "2016年7月15日"
+output: html_document
+---
+洋葱数学自适应系统
+
+现在有点混乱 主要是比较困 什么都不想做 于是开始写日记了ORZ
+来梳理一下自己应该做什么吧 
+
+- D0: 洋葱数学自适应系统可视化相关 写文档和做可视化
+
+  其实可视化部分不需要我做的，我只需要写成一份相关的文档，能让所有人看懂
+
+- D2: 机器学习－视频跳出情况 （big！）
+
+  需求：学生什么时候会异常退出video
+
+  间接需求：学生为什么退出？
+
+  首先，统计视频的退出情况 看每一个视频的退出率和退出位置 
+
+  评估这项需求是否有意义
+
+- and then
+
+那么问题来了，我应该做哪一个还有怎么来做呢？
+
+按照难度来排 
+那么应该先完成小地图了 预计 周末完成小地图吧
+下周开始可以写文档和做dropout了
+
+dropout的话可以看看之前一篇coffeePanel的文章
+
+所以还是先完成小地图吧
+
+用户轨迹网络
+
+用户的注意力分析
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
